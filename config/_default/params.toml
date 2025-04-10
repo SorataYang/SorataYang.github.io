@@ -13,8 +13,8 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+# emoji = "🍥"
+subtitle = "《桥通软件》继承了大桥院自主软件的核心技术，包含了既有软件的所有功能，并在此基础上，进行了大量的扩展，包括静力分析、动力分析、非线性等计算，满足用户在桥梁设计中对有限元计算的相关需求。"
 
 [sidebar.avatar]
 enabled = true
