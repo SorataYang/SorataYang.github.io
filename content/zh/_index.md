@@ -1,14 +1,18 @@
 ---
 title: "桥通：桥梁通用有限元分析软件"
-linkTitle: "首页"
-weight: 10
 description: "桥通软件：中铁大桥勘测设计院集团有限公司自主研发，高效、安全、可靠的桥梁全生命周期受力分析解决方案。"
-_build: { render: "always", list: "never", publishResources: true }
 ---
 
-## 桥通软件：简化桥梁分析，确保工程可靠
-
+{{% blocks/cover title="桥通软件" image_anchor="top" height="full" %}}
 自主研发的桥梁通用有限元分析软件，赋能桥梁从设计、施工到运维全过程。
+{.display-6}
+
+<a class="btn btn-lg btn-primary me-3" href="about/">Learn More</a>
+<a class="btn btn-lg btn-secondary" href="docs/get-started/">Get started</a>
+{.p-initial .my-5}
+
+{{% blocks/link-down color="info" %}}
+{{% /blocks/cover %}}
 
 ## 关于桥通
 
@@ -20,21 +24,25 @@ _build: { render: "always", list: "never", publishResources: true }
 
 ## 核心优势
 
-### 安全 — 完全自主的知识产权
+{{% blocks/section color="dark" type="row" %}}
 
+{{% blocks/feature icon="fa-lock" title="安全 — 完全自主的知识产权" %}}
 桥通软件拥有完全自主的知识产权，为您提供安全可靠的软件环境，免除后顾之忧。我们致力于技术创新，确保您的数据与项目安全。
+{{% /blocks/feature %}}
 
-### 高效 — 功能完备且性能卓越
-
+{{% blocks/feature icon="fa-bolt" title="高效 — 功能完备且性能卓越" %}}
 软件功能全面覆盖桥梁分析的各个环节，从建模到后处理，每一个模块都经过精心设计与优化，确保您在进行复杂计算时依然保持高效流畅，大幅缩短项目周期。
+{{% /blocks/feature %}}
 
-### 贴心 — 懂需求一线工程师打造
-
+{{% blocks/feature icon="fa-heart" title="贴心 — 懂需求一线工程师打造" %}}
 软件由经验丰富的一线桥梁工程师团队主导开发，深度理解行业痛点和实际需求。我们致力于提供真正贴合工作流程、解决实际问题的工具，让您的工作更轻松、更智能。
+{{% /blocks/feature %}}
 
-### 放心 — 海量桥梁工程应用迭代
-
+{{% blocks/feature icon="fa-check-circle" title="放心 — 海量桥梁工程应用迭代" %}}
 桥通软件的有限元计算内核已在数十年间、数百座大型桥梁工程中得到反复验证和持续迭代。海量的工程应用实践确保了计算结果的准确性与可靠性，让您对设计结果充满信心。
+{{% /blocks/feature %}}
+
+{{% /blocks/section %}}
 
 ---
 
@@ -43,3 +51,5 @@ _build: { render: "always", list: "never", publishResources: true }
 如果您有任何疑问，请查阅我们的[常见问题解答](docs/faq)。
 
 如果您需要进一步的帮助，请随时[联系我们](docs/contact)。
+
+---
