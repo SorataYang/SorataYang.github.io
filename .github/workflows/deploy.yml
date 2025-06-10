@@ -57,7 +57,11 @@ jobs:
           node-version: '20' # 根据您的项目需求选择Node.js版本
           cache: 'npm' # 缓存npm依赖
 
-      - name: Install Node.js dependencies
+      # --- 在这里安装 PostCSS ---
+      - name: Install PostCSS and its CLI
+        run: npm install postcss postcss-cli
+
+      - name: Install other Node.js dependencies # 保持这个步骤，以防你有其他项目依赖
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
       - name: Build with Hugo
