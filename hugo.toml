@@ -1,14 +1,15 @@
 baseURL = 'https://soratayang.github.io/'
 title = '桥通软件用户手册'
-theme = "github.com/google/docsy"
+theme = "github.com/alex-shpak/hugo-book"
 languageCode = "zh-CN"
 defaultContentLanguage = "zh"
 enableRobotsTXT = true
 enableGitInfo = true
 
 [params]
-  github_repo = "https://github.com/soratayang/soratayang.github.io"
-  offlineSearch = true
+  BookTheme = "auto"
+  BookToC = true
+  BookSection = "docs"
 
 [[menu.main]]
   identifier = "home"
@@ -34,4 +35,8 @@ enableGitInfo = true
         contentDir = "content/en"
     [languages.uk]
         contentDir = "content/uk"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
 
