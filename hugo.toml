@@ -20,6 +20,12 @@ enableGitInfo = true
   url = "/docs/"
   weight = 10
 
+[[menu.main]]
+  identifier = "try-now"
+  name = "立即试用"
+  url = "https://www.brdi.com.cn/list/91.html"
+  weight = 100
+
 # internationalization
 [languages]
     [languages.zh]
