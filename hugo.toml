@@ -1,6 +1,6 @@
 baseURL = 'https://soratayang.github.io/'
 title = '桥通软件用户手册' # 默认标题，会被语言特定标题覆盖
-theme = "hugo-book"
+theme = "github.com/alex-shpak/hugo-book"
 
 languageCode = "zh-CN" # 主要语言的区域代码
 defaultContentLanguage = "zh" # 默认显示内容语言
@@ -42,3 +42,7 @@ enableGitInfo = true
     # lineNos = true
     # hl_Lines = ""
     # tabWidth = 4
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
