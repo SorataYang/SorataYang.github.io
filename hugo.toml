@@ -23,8 +23,8 @@ enableGitInfo = true
 
 [[menu.main]]
   identifier = "try-now"
-  name = "立即试用"
-  url = "https://www.brdi.com.cn/list/91.html"
+  name = "软件下载"
+  url = "https://smp.brdi.com.cn/BSAP/qiaotong.zip"
   weight = 100
 
 # internationalization
