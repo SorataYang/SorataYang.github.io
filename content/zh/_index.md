@@ -12,7 +12,7 @@ _build: { render: "always", list: "never", publishResources: true }
 
 自主研发的桥梁通用有限元分析软件，赋能桥梁从设计、施工到运维全过程。
 
-{{< button href="<https://smp.brdi.com.cn/BSAP/qiaotong.zip>" >}}软件下载{{< /button >}}
+{{< button href="https://smp.brdi.com.cn/BSAP/qiaotong.zip" >}}软件下载{{< /button >}}
 
 ---
 
