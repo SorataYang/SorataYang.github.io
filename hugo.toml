@@ -34,6 +34,8 @@ enableGitInfo = true
 
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true # 允许渲染原始HTML，以便短代码如 'columns' 能正常工作
   [markup.highlight]
     noClasses = false # 确保代码高亮使用CSS类，便于自定义样式
     # 你还可以添加其他高亮配置，例如：
