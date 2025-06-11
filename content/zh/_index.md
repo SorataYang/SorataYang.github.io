@@ -29,8 +29,7 @@ _build: { render: "always", list: "never", publishResources: true }
 
 软件功能全面覆盖桥梁分析的各个环节，从建模到后处理，每一个模块都经过精心设计与优化，确保您在进行复杂计算时依然保持高效流畅，大幅缩短项目周期。
 
-{{% /columns %}}
-{{% columns %}}
+<--->
 
 **贴心 — 懂需求一线工程师打造**
 
