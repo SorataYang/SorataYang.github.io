@@ -9,14 +9,14 @@ weight: 13
 
 ### 新建项目
 - 命令：主菜单栏>文件>新建
-- 图标菜单：![](/zh/docs/03-management/image/新建_-hwtE403EC.png)
+- 图标菜单：![](/zh/docs/03-management/image/new_project.png)
 - 快捷键：Ctrl+N
 
 点击新建工程后，软件自动创建模型数据。
 
 ### 打开项目
 - 命令：主菜单栏>文件>打开
-- 图标菜单：![](image/打开_5_hXHOCK1Q.png)
+- 图标菜单：![](image/open_project.png)
 - 快捷键：Ctrl+O
 
 选择打开项目后弹出文件打开对话框，选择所需的 \*.bfmd工程文件，单击打开即可打开相应工程。
@@ -30,33 +30,33 @@ weight: 13
 ### 保存/另存为
 - 命令：主菜单栏>文件>保存/另存为
 - 图标菜单：
-  ![](image/保存_yVRhUEESCu.png)
-  ![](image/另存为_leRs-2mtrU.png)
+  ![](image/save_project.png)
+  ![](image/save_as_project.png)
 - 快捷键：Ctrl+S
 
 保存当前项目到数据库。首次保存需要输入项目名称和文件路径，保存现有项目将直接替换为当前项目。如果点击另存为，需要重新输入项目名称和路径存储为新的数据库。
 
 ### 关闭项目
 - 命令：主菜单栏>文件>关闭
-- 图标菜单：![](image/关闭_ClEEHjga3Z.png)
+- 图标菜单：![](image/close_project.png)
 
 关闭当前项目，如果工程数据经过修改，关闭前会弹出对话框，询问是否保存修改，如果选择是，将会自动保存数据，选择否,则不会保存数据。
 
 ### 保存当前阶段为
 - 命令：主菜单栏>文件>保存当前阶段为
-- 图标菜单：![](image/保存当前阶段为_EISFaIoa5C.png)
+- 图标菜单：![](image/save_current_stage_as.png)
 
 可将在当前施工阶段的模型另存，一般可用于对某个施工阶段单独进行分析。
 
 ### 最近打开的模型
 - 命令：主菜单栏>文件>最近打开的模型
-- 图标菜单：![](image/最近打开的模型_2iXtSoKuJn.png)
+- 图标菜单：![](image/recently_opened_models.png)
 
 最近打开的模型列表中将会显示3个最近使用的项目文件名。选择 \*.bfmd文件，即可打开相应项目。
 
 ### 退出
 - 命令：主菜单栏>文件>退出
-- 图标菜单：![](image/退出_F0w8loawqg.png)
+- 图标菜单：![](image/exit_application.png)
 
 直接退出应用程序并关闭所有进程。
 
@@ -74,7 +74,7 @@ weight: 13
 弹出导入Dxf文件对话框，选择DXF文件，选择图形的层，选择导入节点、单元、材料、截面等数据，旋转角度等，即可在预览窗口中查看导入的图形，点击确定按钮导入图形。
 如需将dxf中的Y轴转为空间Z轴，Rx转角输入90°
 
-![](image/image_A2aCk8on8b.png)
+![](image/import_dxf_dialog.png)
 
 ### 导出Midas数据
 - 命令：主菜单栏>文件>导出>MIDAS(.mct)
@@ -90,7 +90,7 @@ weight: 13
 ### 合并模型
 - 命令：主菜单栏>文件>合并模型（ \*.bfmd）
 
-![合并模型对话框](image/image_JtZbmQI4bw.png)
+![合并模型对话框](image/merge_model_dialog.png)
 
 合并当前模型数据文件和其它模型数据文件。点击浏览选择需要合并的模型即可将对应模型合并到当前模型。
 
