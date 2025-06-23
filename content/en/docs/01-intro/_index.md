@@ -1,28 +1,28 @@
 ---
-title: "01. 桥通软件简介"
+title: "01. Introduction to Qiaotong Software"
 weight: 11
 ---
 
-## 01. 桥通软件简介
+## 01. Introduction to Qiaotong Software
 
-桥通是由**中铁大桥勘测设计院集团有限公司**（下文简称“大桥院”）自主研发的桥梁通用有限元分析软件。该软件继承了大桥院软件的核心技术，功能完备、性能卓越，适用于任何桥型从设计、施工到运维的全过程受力分析，支持公路、铁路、市政等行业规范，在设计、施工、科研等单位均具有广泛的应用场景。软件名称“桥通”既是对软件功能的概括，也是对武汉长江大桥 **“一桥飞架南北，天堑变通途”** 建桥精神的传承。
+Qiaotong is a general-purpose finite element analysis software for bridges, independently developed by China Railway Major Bridge Reconnaissance & Design Institute Co., Ltd. (hereinafter referred to as "MBEC"). The software inherits the core technologies of MBEC, offering comprehensive features and outstanding performance. It is suitable for the entire process of structural analysis for any type of bridge, from design and construction to operation and maintenance. Qiaotong supports industry standards for highways, railways, and municipal engineering, and is widely used in design, construction, and research organizations. The name "Qiaotong" not only summarizes the software’s capabilities but also carries forward the pioneering spirit of the Wuhan Yangtze River Bridge, encapsulated in the phrase: "A bridge flies over the north and south, turning a natural moat into a thoroughfare."
 
-该软件在 Windows 环境下开发，集成了用户交互建模界面、三维图形引擎、动态双向交互式二维图形引擎、高效的数据库存取技术、卓越的求解性能、强大的后处理等功能模块。软件由一线工程师打造，贴合实际需求。软件操作界面与商业软件无缝衔接，不改变用户习惯，零成本上手，数据格式与商业软件互认互导。桥通的有限元计算内核经过数十年、数百座桥梁的检验，计算结果准确可靠。
+Developed for the Windows environment, Qiaotong integrates modules such as an interactive modeling interface, a 3D graphics engine, a dynamic bidirectional 2D graphics engine, efficient database access technology, excellent solver performance, and powerful post-processing capabilities. Created by front-line engineers, the software is tailored to practical needs. Its user interface seamlessly aligns with commercial software, requiring no change in user habits and enabling zero-cost onboarding. Data formats are mutually recognized and convertible with commercial software. The finite element computation core of Qiaotong has been validated over decades and hundreds of bridge projects, ensuring accurate and reliable results.
 
 ![](image/image_intro.png)
 
-## 1.1软件环境
+## 1.1 Software Environment
 
-软件已测试通过的电脑操作系统包括： Windows8, Windows10，Windows11，支撑环境为Mcrosoft.NET FrameWork 9.0。
+The software has been tested and verified on the following operating systems: Windows 8, Windows 10, and Windows 11. It requires Microsoft .NET Framework 9.0 as its runtime environment.
 
-## 1.2软件安装、运行和卸载
+## 1.2 Software Installation, Operation, and Uninstallation
 
-- **软件下载：** [点击下载](https://www.brdi.com.cn/list/91.html "https://www.brdi.com.cn/list/91.html")
-- **软件安装：** 点击安装包中的Setup.exe开始安装，若用户未安装Microsoft.NET FrameWork4.8，则提示安装后再继续。软件默认安装路径为：C:\\Program Files\\BRDI\\桥通\\，用户可根据需要修改安装路径。安装后，会在桌面和开始菜单生成快捷图标。
-- **软件卸载：** 点击开始>所有程序>桥通>卸载。
-- **在线升级：** 针对软件版本的升级，我们提供了在线升级功能，根据需要可以选择覆盖或者重装软件。
+- **Download:** [Click to download](https://www.brdi.com.cn/list/91.html "https://www.brdi.com.cn/list/91.html")
+- **Installation:** Run Setup.exe in the installation package to start the installation. If Microsoft .NET Framework 4.8 is not installed, you will be prompted to install it before proceeding. The default installation path is: C:\\Program Files\\BRDI\\Qiaotong\\, but users can change it as needed. After installation, shortcut icons will be created on the desktop and in the Start menu.
+- **Uninstallation:** Go to Start > All Programs > Qiaotong > Uninstall.
+- **Online Upgrade:** We provide an online upgrade feature for software version updates. You can choose to overwrite the existing installation or perform a fresh installation as needed.
 
-## 1.3软件特点
+## 1.3 Software Features
 
-[软件特点视频介绍](https://www.bilibili.com/video/BV1ap4y1T7Zz/?share_source=copy_web&vd_source=c556459924185cc3d2902367720ea181)
+[Video introduction to software features](https://www.bilibili.com/video/BV1ap4y1T7Zz/?share_source=copy_web&vd_source=c556459924185cc3d2902367720ea181)
 
