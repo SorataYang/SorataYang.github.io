@@ -12,6 +12,7 @@ enableGitInfo = true
   BookMenuBundle = "" # 默认会从 content/docs 构建菜单，推荐保持此设置
   BookSection = "docs" # 默认从 content/docs 构建菜单，推荐保持此设置
   BookSearch = true # 启用搜索
+  BookTranslatedOnly = true
   BookServiceWorker = true # 启用 Service Worker，用于离线访问和更快的加载
 
 [[menu.main]]
@@ -24,13 +25,15 @@ enableGitInfo = true
 [languages]
   [languages.zh]
     title = "桥通软件用户手册" # 中文站点标题
+    languageName = '中文'
     contentDir = "content/zh"
-    weight = 1
+    weight = 10
 
   [languages.en]
     title = "Qiaotong Software User Manual" # 英文站点标题
+    languageName = 'English'
     contentDir = "content/en"
-    weight = 2
+    weight = 20
 
 
 [markup]
